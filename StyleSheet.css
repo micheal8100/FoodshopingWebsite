@@ -108,10 +108,10 @@ header{
     overflow: hidden;
 }
 .container img{
-    width: 400px;
+    width: 500px;
     position: absolute;
-    bottom: -500px;
-    right: 200px
+    bottom: 55px;
+    right: 300px
 }
 .home-text{
     padding: 0 150px;
@@ -151,4 +151,24 @@ header{
 .btn:hover {
     background: var(--light-orange-color);
     transition: 0.2s ease;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.heading span{
+    color: var(--green-color);
+}
+.categories{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cateories-container{
+    
 }
