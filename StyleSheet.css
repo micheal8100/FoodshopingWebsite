@@ -90,8 +90,65 @@ header{
     transition: 0.5s;
 }
 #menu-icon{
-    font-size: 24;
+    font-size: 24px;
     cursor: pointer;
     z-index: 10001;
     display: none;
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    background: url(Images/Background.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.container img{
+    width: 400px;
+    position: absolute;
+    bottom: -500px;
+    right: 200px
+}
+.home-text{
+    padding: 0 150px;
+    padding-top: 200px;
+    align-items: center;
+}
+.home-text span{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--green-color);
+}
+.home-text h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 0.6rem 1rem;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 160px;
+    border-radius: 5rem;
+}
+.btn .bx{
+    padding: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
+}
+.btn:hover {
+    background: var(--light-orange-color);
+    transition: 0.2s ease;
 }
